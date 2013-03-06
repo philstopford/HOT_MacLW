@@ -1,0 +1,462 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		4A50B03016E5908A002EE791 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4A50B02F16E5908A002EE791 /* Cocoa.framework */; };
+		4A50B03A16E5908A002EE791 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 4A50B03816E5908A002EE791 /* InfoPlist.strings */; };
+		4A50B04716E594C8002EE791 /* HOTDM.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4A50B04416E594C8002EE791 /* HOTDM.cpp */; };
+		4A50B04816E594C8002EE791 /* HOTNode.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4A50B04516E594C8002EE791 /* HOTNode.cpp */; };
+		4A50B04916E594C8002EE791 /* HOTNode2D.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4A50B04616E594C8002EE791 /* HOTNode2D.cpp */; };
+		4AA800F616E6F5040093BC81 /* libblitz.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 4AA800ED16E6F5040093BC81 /* libblitz.a */; };
+		4AA800F816E6F5040093BC81 /* libfftw3f_threads.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 4AA800EF16E6F5040093BC81 /* libfftw3f_threads.a */; };
+		4AA800FA16E6F5040093BC81 /* libfftw3f.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 4AA800F116E6F5040093BC81 /* libfftw3f.a */; };
+		4AA800FC16E6F5040093BC81 /* libImath.1.0.3.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 4AA800F316E6F5040093BC81 /* libImath.1.0.3.dylib */; };
+		4AA800FE16E6F5040093BC81 /* liblwpp_64.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 4AA800F516E6F5040093BC81 /* liblwpp_64.a */; };
+		4AA8010116E6F63E0093BC81 /* HOTDM.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4A50B04416E594C8002EE791 /* HOTDM.cpp */; };
+		4AA8010216E6F63E0093BC81 /* HOTNode.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4A50B04516E594C8002EE791 /* HOTNode.cpp */; };
+		4AA8010316E6F63E0093BC81 /* HOTNode2D.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4A50B04616E594C8002EE791 /* HOTNode2D.cpp */; };
+		4AA8010516E6F63E0093BC81 /* libblitz.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 4AA800ED16E6F5040093BC81 /* libblitz.a */; };
+		4AA8010616E6F63E0093BC81 /* libfftw3f_threads.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 4AA800EF16E6F5040093BC81 /* libfftw3f_threads.a */; };
+		4AA8010716E6F63E0093BC81 /* libfftw3f.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 4AA800F116E6F5040093BC81 /* libfftw3f.a */; };
+		4AA8010816E6F63E0093BC81 /* libImath.1.0.3.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 4AA800F316E6F5040093BC81 /* libImath.1.0.3.dylib */; };
+		4AA8010916E6F63E0093BC81 /* liblwpp_32.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 4AA800F416E6F5040093BC81 /* liblwpp_32.a */; };
+		4AA8010B16E6F63E0093BC81 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4A50B02F16E5908A002EE791 /* Cocoa.framework */; };
+		4AA8010D16E6F63E0093BC81 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 4A50B03816E5908A002EE791 /* InfoPlist.strings */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		4A50B02C16E5908A002EE791 /* HOT_LW.plugin */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; name = HOT_LW.plugin; path = HOT_LW_64.plugin; sourceTree = BUILT_PRODUCTS_DIR; };
+		4A50B02F16E5908A002EE791 /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
+		4A50B03216E5908A002EE791 /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
+		4A50B03316E5908A002EE791 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		4A50B03416E5908A002EE791 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		4A50B03716E5908A002EE791 /* HOT_LW-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "HOT_LW-Info.plist"; sourceTree = "<group>"; };
+		4A50B03916E5908A002EE791 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		4A50B03B16E5908A002EE791 /* HOT_LW-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "HOT_LW-Prefix.pch"; sourceTree = "<group>"; };
+		4A50B04116E594C8002EE791 /* HOTDM.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HOTDM.h; sourceTree = "<group>"; };
+		4A50B04216E594C8002EE791 /* HOTNode.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HOTNode.h; sourceTree = "<group>"; };
+		4A50B04316E594C8002EE791 /* HOTNode2D.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HOTNode2D.h; sourceTree = "<group>"; };
+		4A50B04416E594C8002EE791 /* HOTDM.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = HOTDM.cpp; sourceTree = "<group>"; };
+		4A50B04516E594C8002EE791 /* HOTNode.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = HOTNode.cpp; sourceTree = "<group>"; };
+		4A50B04616E594C8002EE791 /* HOTNode2D.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = HOTNode2D.cpp; sourceTree = "<group>"; };
+		4AA800ED16E6F5040093BC81 /* libblitz.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libblitz.a; path = "dependencies/hot-master/3rdparty/osx/lib/libblitz.a"; sourceTree = "<group>"; };
+		4AA800EF16E6F5040093BC81 /* libfftw3f_threads.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libfftw3f_threads.a; path = "dependencies/hot-master/3rdparty/osx/lib/libfftw3f_threads.a"; sourceTree = "<group>"; };
+		4AA800F116E6F5040093BC81 /* libfftw3f.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libfftw3f.a; path = "dependencies/hot-master/3rdparty/osx/lib/libfftw3f.a"; sourceTree = "<group>"; };
+		4AA800F316E6F5040093BC81 /* libImath.1.0.3.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libImath.1.0.3.dylib; path = "dependencies/openexr-cmake/IlmBase/Imath/libImath.1.0.3.dylib"; sourceTree = "<group>"; };
+		4AA800F416E6F5040093BC81 /* liblwpp_32.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = liblwpp_32.a; path = dependencies/lwpp/build/liblwpp_32.a; sourceTree = "<group>"; };
+		4AA800F516E6F5040093BC81 /* liblwpp_64.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = liblwpp_64.a; path = dependencies/lwpp/build/liblwpp_64.a; sourceTree = "<group>"; };
+		4AA8011116E6F63E0093BC81 /* HOT_LW_32.plugin */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HOT_LW_32.plugin; sourceTree = BUILT_PRODUCTS_DIR; };
+		4AA8011216E6F63E0093BC81 /* HOT_LW copy-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = "HOT_LW copy-Info.plist"; path = "/Volumes/Phil/Documents/development/LW/HOT_LW/HOT_LW copy-Info.plist"; sourceTree = "<absolute>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		4A50B02916E5908A002EE791 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4AA800F616E6F5040093BC81 /* libblitz.a in Frameworks */,
+				4AA800F816E6F5040093BC81 /* libfftw3f_threads.a in Frameworks */,
+				4AA800FA16E6F5040093BC81 /* libfftw3f.a in Frameworks */,
+				4AA800FC16E6F5040093BC81 /* libImath.1.0.3.dylib in Frameworks */,
+				4AA800FE16E6F5040093BC81 /* liblwpp_64.a in Frameworks */,
+				4A50B03016E5908A002EE791 /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4AA8010416E6F63E0093BC81 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4AA8010516E6F63E0093BC81 /* libblitz.a in Frameworks */,
+				4AA8010616E6F63E0093BC81 /* libfftw3f_threads.a in Frameworks */,
+				4AA8010716E6F63E0093BC81 /* libfftw3f.a in Frameworks */,
+				4AA8010816E6F63E0093BC81 /* libImath.1.0.3.dylib in Frameworks */,
+				4AA8010916E6F63E0093BC81 /* liblwpp_32.a in Frameworks */,
+				4AA8010B16E6F63E0093BC81 /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		4A50B02316E5908A002EE791 = {
+			isa = PBXGroup;
+			children = (
+				4A50B03516E5908A002EE791 /* HOT_LW */,
+				4A50B02E16E5908A002EE791 /* Frameworks */,
+				4A50B02D16E5908A002EE791 /* Products */,
+				4AA8011216E6F63E0093BC81 /* HOT_LW copy-Info.plist */,
+			);
+			sourceTree = "<group>";
+		};
+		4A50B02D16E5908A002EE791 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				4A50B02C16E5908A002EE791 /* HOT_LW.plugin */,
+				4AA8011116E6F63E0093BC81 /* HOT_LW_32.plugin */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		4A50B02E16E5908A002EE791 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				4AA800ED16E6F5040093BC81 /* libblitz.a */,
+				4AA800EF16E6F5040093BC81 /* libfftw3f_threads.a */,
+				4AA800F116E6F5040093BC81 /* libfftw3f.a */,
+				4AA800F316E6F5040093BC81 /* libImath.1.0.3.dylib */,
+				4AA800F516E6F5040093BC81 /* liblwpp_64.a */,
+				4AA800F416E6F5040093BC81 /* liblwpp_32.a */,
+				4A50B02F16E5908A002EE791 /* Cocoa.framework */,
+				4A50B03116E5908A002EE791 /* Other Frameworks */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		4A50B03116E5908A002EE791 /* Other Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				4A50B03216E5908A002EE791 /* AppKit.framework */,
+				4A50B03316E5908A002EE791 /* CoreData.framework */,
+				4A50B03416E5908A002EE791 /* Foundation.framework */,
+			);
+			name = "Other Frameworks";
+			sourceTree = "<group>";
+		};
+		4A50B03516E5908A002EE791 /* HOT_LW */ = {
+			isa = PBXGroup;
+			children = (
+				4A50B04116E594C8002EE791 /* HOTDM.h */,
+				4A50B04216E594C8002EE791 /* HOTNode.h */,
+				4A50B04316E594C8002EE791 /* HOTNode2D.h */,
+				4A50B04416E594C8002EE791 /* HOTDM.cpp */,
+				4A50B04516E594C8002EE791 /* HOTNode.cpp */,
+				4A50B04616E594C8002EE791 /* HOTNode2D.cpp */,
+				4A50B03616E5908A002EE791 /* Supporting Files */,
+			);
+			path = HOT_LW;
+			sourceTree = "<group>";
+		};
+		4A50B03616E5908A002EE791 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				4A50B03716E5908A002EE791 /* HOT_LW-Info.plist */,
+				4A50B03816E5908A002EE791 /* InfoPlist.strings */,
+				4A50B03B16E5908A002EE791 /* HOT_LW-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		4A50B02B16E5908A002EE791 /* HOT_LW_64 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4A50B03E16E5908A002EE791 /* Build configuration list for PBXNativeTarget "HOT_LW_64" */;
+			buildPhases = (
+				4A50B02816E5908A002EE791 /* Sources */,
+				4A50B02916E5908A002EE791 /* Frameworks */,
+				4A50B02A16E5908A002EE791 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = HOT_LW_64;
+			productName = HOT_LW;
+			productReference = 4A50B02C16E5908A002EE791 /* HOT_LW.plugin */;
+			productType = "com.apple.product-type.bundle";
+		};
+		4AA800FF16E6F63E0093BC81 /* HOT_LW_32 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4AA8010E16E6F63E0093BC81 /* Build configuration list for PBXNativeTarget "HOT_LW_32" */;
+			buildPhases = (
+				4AA8010016E6F63E0093BC81 /* Sources */,
+				4AA8010416E6F63E0093BC81 /* Frameworks */,
+				4AA8010C16E6F63E0093BC81 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = HOT_LW_32;
+			productName = HOT_LW;
+			productReference = 4AA8011116E6F63E0093BC81 /* HOT_LW_32.plugin */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		4A50B02416E5908A002EE791 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0460;
+				ORGANIZATIONNAME = "Phil Stopford";
+			};
+			buildConfigurationList = 4A50B02716E5908A002EE791 /* Build configuration list for PBXProject "HOT_LW" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 4A50B02316E5908A002EE791;
+			productRefGroup = 4A50B02D16E5908A002EE791 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				4A50B02B16E5908A002EE791 /* HOT_LW_64 */,
+				4AA800FF16E6F63E0093BC81 /* HOT_LW_32 */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		4A50B02A16E5908A002EE791 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4A50B03A16E5908A002EE791 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4AA8010C16E6F63E0093BC81 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4AA8010D16E6F63E0093BC81 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		4A50B02816E5908A002EE791 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4A50B04716E594C8002EE791 /* HOTDM.cpp in Sources */,
+				4A50B04816E594C8002EE791 /* HOTNode.cpp in Sources */,
+				4A50B04916E594C8002EE791 /* HOTNode2D.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4AA8010016E6F63E0093BC81 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4AA8010116E6F63E0093BC81 /* HOTDM.cpp in Sources */,
+				4AA8010216E6F63E0093BC81 /* HOTNode.cpp in Sources */,
+				4AA8010316E6F63E0093BC81 /* HOTNode2D.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		4A50B03816E5908A002EE791 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4A50B03916E5908A002EE791 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		4A50B03C16E5908A002EE791 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = YES;
+				ARCHS = (
+					i386,
+					x86_64,
+				);
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CONFIGURATION_BUILD_DIR = build;
+				COPY_PHASE_STRIP = NO;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					_MACOS,
+					"LW_SDK=96",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LIBRARY_SEARCH_PATHS = "$(SRCROOT)/dependencies/lib";
+				MACOSX_DEPLOYMENT_TARGET = 10.8;
+				USER_HEADER_SEARCH_PATHS = "$(SRCROOT)/dependencies/lwsdk/include $(SRCROOT)/dependencies/lwpp/include $(SRCROOT)/dependencies/hot-master $(SRCROOT)/dependencies/hot-master/3rdparty/src/fftw-3.2.2/api $(SRCROOT)/dependencies/hot-master/3rdparty/src/loki-0.1.6/include $(SRCROOT)/dependencies/hot-master/3rdparty/src/blitz $(SRCROOT)/dependencies/openexr-cmake/IlmBase/Imath";
+				VALID_ARCHS = "i386 x86_64";
+			};
+			name = Debug;
+		};
+		4A50B03D16E5908A002EE791 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = YES;
+				ARCHS = (
+					i386,
+					x86_64,
+				);
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CONFIGURATION_BUILD_DIR = build;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					_MACOS,
+					"LW_SDK=96",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LIBRARY_SEARCH_PATHS = "$(SRCROOT)/dependencies/lib";
+				MACOSX_DEPLOYMENT_TARGET = 10.8;
+				USER_HEADER_SEARCH_PATHS = "$(SRCROOT)/dependencies/lwsdk/include $(SRCROOT)/dependencies/lwpp/include $(SRCROOT)/dependencies/hot-master $(SRCROOT)/dependencies/hot-master/3rdparty/src/fftw-3.2.2/api $(SRCROOT)/dependencies/hot-master/3rdparty/src/loki-0.1.6/include $(SRCROOT)/dependencies/hot-master/3rdparty/src/blitz $(SRCROOT)/dependencies/openexr-cmake/IlmBase/Imath";
+				VALID_ARCHS = "i386 x86_64";
+			};
+			name = Release;
+		};
+		4A50B03F16E5908A002EE791 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = x86_64;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "HOT_LW/HOT_LW-Prefix.pch";
+				INFOPLIST_FILE = "HOT_LW/HOT_LW-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Bundles";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)/..\"",
+					"\"$(SRCROOT)/dependencies/hot-master/3rdparty/osx/lib\"",
+					"\"$(SRCROOT)/dependencies/openexr-cmake/IlmBase/Imath\"",
+					"\"$(SRCROOT)/dependencies/lwpp/build\"",
+				);
+				PRODUCT_NAME = HOT_LW_64;
+				VALID_ARCHS = x86_64;
+				WRAPPER_EXTENSION = plugin;
+			};
+			name = Debug;
+		};
+		4A50B04016E5908A002EE791 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = x86_64;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "HOT_LW/HOT_LW-Prefix.pch";
+				INFOPLIST_FILE = "HOT_LW/HOT_LW-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Bundles";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)/..\"",
+					"\"$(SRCROOT)/dependencies/hot-master/3rdparty/osx/lib\"",
+					"\"$(SRCROOT)/dependencies/openexr-cmake/IlmBase/Imath\"",
+					"\"$(SRCROOT)/dependencies/lwpp/build\"",
+				);
+				PRODUCT_NAME = HOT_LW_64;
+				VALID_ARCHS = x86_64;
+				WRAPPER_EXTENSION = plugin;
+			};
+			name = Release;
+		};
+		4AA8010F16E6F63E0093BC81 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = i386;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "HOT_LW/HOT_LW-Prefix.pch";
+				INFOPLIST_FILE = "HOT_LW copy-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Bundles";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)/..\"",
+					"\"$(SRCROOT)/dependencies/hot-master/3rdparty/osx/lib\"",
+					"\"$(SRCROOT)/dependencies/openexr-cmake/IlmBase/Imath\"",
+					"\"$(SRCROOT)/dependencies/lwpp/build\"",
+				);
+				PRODUCT_NAME = HOT_LW_32;
+				VALID_ARCHS = i386;
+				WRAPPER_EXTENSION = plugin;
+			};
+			name = Debug;
+		};
+		4AA8011016E6F63E0093BC81 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = i386;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "HOT_LW/HOT_LW-Prefix.pch";
+				INFOPLIST_FILE = "HOT_LW copy-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Bundles";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)/..\"",
+					"\"$(SRCROOT)/dependencies/hot-master/3rdparty/osx/lib\"",
+					"\"$(SRCROOT)/dependencies/openexr-cmake/IlmBase/Imath\"",
+					"\"$(SRCROOT)/dependencies/lwpp/build\"",
+				);
+				PRODUCT_NAME = HOT_LW_32;
+				VALID_ARCHS = i386;
+				WRAPPER_EXTENSION = plugin;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4A50B02716E5908A002EE791 /* Build configuration list for PBXProject "HOT_LW" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4A50B03C16E5908A002EE791 /* Debug */,
+				4A50B03D16E5908A002EE791 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4A50B03E16E5908A002EE791 /* Build configuration list for PBXNativeTarget "HOT_LW_64" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4A50B03F16E5908A002EE791 /* Debug */,
+				4A50B04016E5908A002EE791 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4AA8010E16E6F63E0093BC81 /* Build configuration list for PBXNativeTarget "HOT_LW_32" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4AA8010F16E6F63E0093BC81 /* Debug */,
+				4AA8011016E6F63E0093BC81 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 4A50B02416E5908A002EE791 /* Project object */;
+}
